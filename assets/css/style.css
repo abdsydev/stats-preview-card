@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+:root {
+  --vdb: hsl(233, 47%, 7%);
+  --ddb: hsl(244, 38%, 16%);
+  --sv: hsl(277, 64%, 61%);
+  --w: hsl(0, 0%, 100%);
+  --stw: hsla(0, 0%, 100%, 0.75);
+  --stw2: hsla(0, 0%, 100%, 0.6);
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  background-color: var(--vdb);
+  color: var(--w);
+}
+
+.hero-img {
+  background: url(../images/image-header-desktop.jpg) no-repeat;
+  height: 540px;
+  height: 446px;
+}
+
+.copytight {
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+
+.copytight a {
+  text-decoration: none;
+  color: hsl(212, 21%, 14%);
+}
